@@ -1,5 +1,71 @@
+*{
+    margin-left: 0;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+}
+
+header{
+    background-image: linear-gradient(to right, rgb(89, 89, 206), rgb(6, 6, 114));
+    color:white;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+}
+
+form{
+    border-bottom-style: solid;
+    border-color:rgb(66, 72, 83);
+    padding: 20px 20px 20px 20px;
+}
+
+#search_button{
+    background-color:rgb(101, 155, 255);
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    text-align: center;
+    color:black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    border-style: solid;
+    border-color: rgb(129, 135, 141);
+    background-color: rgb(129, 135, 141);
+    border-width: 1px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-top: 10px;
+
+
+
+
+}
+
+#city_weather{
+    background-color: white;
+    color:black;
+    border-width: 2px;
+    border-color: black;
+}
+
+
+.card{
+    background-color: rgb(54, 57, 102);
+    color:white;
 }

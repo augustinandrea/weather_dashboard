@@ -15,5 +15,85 @@
 
 
 <body>
+  <header class="weather_header bold">Weather Dashboard</header>
+
+  <div class="container-fluid main-div">
+
+
+    <!--Search section-->
+    <div class="row">
+      <div id="search_section" class="col-lg-3 col-md-12 col-sm-12">
+        <h2>Search for a City: </h2>
+
+
+        <form id= "search_form_area" clsss="form-inline">
+
+          <input type="text" id="search_city" class="form-control">
+          <button id="search_button" class="btn btn-outline-primary">Search</button>
+        </form>
+
+
+        <!--List of Cities-->
+        <!--Previous searched cities-->
+        <div id="city_list">
+          <ul class="list-group" id="previous_cities_list">
+          </ul>
+        </div>
+      </div>
+
+      <!--Searched city current box-->
+      <div id="weather_section" class="col-lg-9 col-md-12 col-sm-12">
+        <div id="city_weather" class="card"></div>
+
+
+        <!--5 day forecast-->
+        <div id="5_day_forecast">
+          <h2>5-Day Forecast: </h2>
+          <div class="row">
+
+            <div class="col-lg-2 col-md-12 col-sm-12 text-center">
+              <div class="card">
+                <div id="div_1" class="card-body">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-12 col-sm-12 text-center">
+              <div class="card">
+                <div id="div_2" class="card-body">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-12 col-sm-12 text-center">
+              <div class="card">
+                <div id="div_3" class="card-body">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-12 col-sm-12 text-center">
+              <div class="card">
+                <div id="div_4" class="card-body">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-12 col-sm-12 text-center">
+              <div class="card">
+                <div id="div_5" class="card-body">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div> <!--end of the 5-day forecast section-->
+
+      </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
 
 </body>
